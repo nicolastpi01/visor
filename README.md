@@ -1,6 +1,6 @@
 # visor
 
-En el archivo ViewerServlet, las constantes #urlFromViewerSaveMarcks y #urlFromViewerGetMarcks indican los servicios para guardar y obtener las anotaciones, respectivamente...
+En el archivo ViewerServlet, las constantes #urlFromViewerSaveMarcks y #urlFromViewerGetMarcks indican los servicios para guardar y obtener las anotaciones respectivamente. Reemplazar estos por los propios para simular estas funcionalidades. Por ejemplo, si trabajasemos local:
 
 * urlFromViewerSaveMarcks = "http://localhost:8081/save";
 * urlFromViewerGetMarcks = "http://localhost:8081/example";
