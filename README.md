@@ -1,5 +1,7 @@
 # visor
 
+Este es el proyecto ppal del visor, es un Servlet que cuenta con los metodos para obtener las anotaciones y guardarlas (utiliza otros endPoints para llevar a cabo esta tarea). A la vez cuenta con otro Servlet para EntryServlet.java el cual esta expuesto de modo de recibir datos sobre el cliente que quiere visualizar el documento.
+
 En el archivo ViewerServlet, las constantes #urlFromViewerSaveMarcks y #urlFromViewerGetMarcks indican los servicios para guardar y obtener las anotaciones respectivamente. Reemplazar estos por los propios para simular estas funcionalidades. Por ejemplo, si trabajasemos local:
 
 * urlFromViewerSaveMarcks = "http://localhost:8081/save";
