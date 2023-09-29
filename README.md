@@ -5,6 +5,8 @@ En el archivo ViewerServlet, las constantes #urlFromViewerSaveMarcks y #urlFromV
 * urlFromViewerSaveMarcks = "http://localhost:8081/save";
 * urlFromViewerGetMarcks = "http://localhost:8081/example";
 
+En el archivo LPAServiceConfigurator reemplazar la direccion que se le pasa al new File() por la que desees. Este es el lugar donde se van a ir guardando las imagenes que se obtienen desde el servicio de XContent en el Server.
+
 Hay que instalar el visor de Daeja 5.0.7 es el que se usa en este proyecto. Seguir cualquiera de los metodos de instalacion recomendados en el siguiente link: https://www.ibm.com/docs/en/daeja-viewone/5.0.7?topic=viewone-installing-daeja-viewer-modules
 
 
